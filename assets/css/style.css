@@ -63,8 +63,8 @@
 =             01. Default Css                 =
 =============================================*/
 *,
-*::after,
-*::before {
+*::after
+/* *::before*/ {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -96,7 +96,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333333;
+  color: rgb(32, 56, 100);
   font-family: "CerebriSans";
   font-weight: 700;
   margin-top: 0;
@@ -3449,11 +3449,11 @@ input[type="checkbox"] {
 
 .navigation-menu > ul > li > a {
   display: block;
-  color: #000000;
+  color: rgb(32, 56, 100);
   padding: 21px 2px;
   position: relative;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.18;
 }
 
@@ -5787,9 +5787,10 @@ input[type="checkbox"] {
 =============================================*/
 .cta-bg-image_one {
   background-color: #454545;
-  background-image: url(../images/patterns/mitech-call-to-action-image-global.png);
+  background-image: url(../images/patterns/serinttech-call-to-action-image.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top 35% right -68px;
+  background-position: top 35% right 0px;
 }
 
 .cta-bg-image_two {
@@ -11373,24 +11374,18 @@ ol {
     right 20px !important;
 }
 
-.appointment-contact-bg {
-  background: url(../images/bg/home-appointment-contact-bg-image.png);
+/* .appointment-contact-bg {
+  /* background: url(../images/bg/home-appointment-contact-bg-image.png); 
   background-repeat: no-repeat;
   background-position: center right;
-}
+} */
 
 .service-contact-bg {
-  background-color: #002fa6;
-  background-image: url(../images/bg/mitech-home-services-contact-bg.png);
+  background-color: rgba(51 74 109 / 93%);
+  background-image: url(../images/bg/serinttech-home-services-contact-bg.png);
   background-repeat: no-repeat;
+  margin-top: 20px;
   background-position: left bottom;
-}
-
-.processing-contact-us-bg {
-  background-color: #002fa6;
-  background-image: url(../images/bg/mitech-processing-contact-bg.png);
-  background-repeat: no-repeat;
-  background-position: top right;
 }
 
 .contact-title .sub-title {
@@ -11447,13 +11442,6 @@ ol {
 
 .contact-inner select {
   color: #777;
-}
-
-.infotechno-contact-us-bg {
-  background-color: #eff2f6;
-  background-image: url(../images/bg/home-infotechno-contact-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 767px),
@@ -11802,7 +11790,7 @@ ol {
 .contact-info.sytle-one .contact-list-item .content .main-content .text,
 .contact-info.style-two .contact-list-item .content .main-content .text {
   color: #d2a98e;
-  font-size: 34px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.17;
 }
@@ -13481,7 +13469,8 @@ blockquote {
 .service-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../images/hero/home-services-hero-bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hero/serinttech-home-hero-bg.png");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -13543,6 +13532,7 @@ blockquote {
   line-height: 36px;
   font-weight: 700;
   color: #ffffff;
+  /* color: rgb(32, 56, 100)!important; */
   margin-bottom: 20px;
 }
 
@@ -13601,10 +13591,13 @@ blockquote {
   margin: 0 auto;
 }
 
-.service-hero-text .service-solution-form-wrap select {
+.service-hero-text .service-solution-form-wrap button {
   border-color: #086ad8;
   background-color: #086ad8;
-  background-image: url("../images/icons/hero-selector-icon.png");
+  /* background-image: url("../images/icons/hero-selector-icon.png"); */
+  border: none;
+  outline: none;
+  border-radius: 5px;
   color: #fff;
   font-weight: 500;
   padding: 3px 30px;
@@ -13618,7 +13611,7 @@ blockquote {
 
 .service-hero-text p {
   margin-top: 30px;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 500;
 }
 
@@ -15062,7 +15055,7 @@ blockquote {
 /* ====================
     Toolbar Area 
 ========================*/
-.aeroland__toolbar .inner {
+/* .aeroland__toolbar .inner {
   position: absolute;
   top: 200px;
   right: 100%;
@@ -15138,4 +15131,4 @@ blockquote {
   transform: translateY(-3px);
   -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
+} */

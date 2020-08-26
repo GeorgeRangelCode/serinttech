@@ -1,0 +1,100 @@
+.text-white1 {
+  display: flex;
+  justify-content: center;
+  line-height: 36px;
+  font-weight: 700;
+  color: rgb(32, 56, 100);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.text-white2 {
+  display: flex;
+  justify-content: center;
+  line-height: 36px;
+  font-weight: 700;
+  color: rgb(166, 166, 166);
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.text-white3 {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(32, 56, 100);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.text-blue {
+  color: rgb(68, 114, 196);
+}
+.company {
+  text-align: center;
+  margin-top: -60px;
+}
+.soluciones {
+  text-align: left;
+  margin-left: 20px;
+}
+.header-bg {
+  background: #f8f8f8 !important;
+}
+.margen {
+  margin-top: 30px;
+}
+.barner_company {
+  background-color: #454545;
+  background-image: url(../images/patterns/serinttech-call-to-action-image-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 86% right 0px;
+}
+.barner_company_2 {
+  background-color: #454545;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, -0.5)),
+    url("../images/patterns/serinttech-call-to-action-image-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 50% right 0px;
+}
+.contenido_company {
+  margin: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.contenido_solution{
+  display: flex;
+}
+.contenido_solution_text {
+  /* margin: 5% 40%; */
+  display: flex; 
+  flex-direction: column;
+  align-items: justify;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.contenido_company_parrafo {
+  color: #454545;
+  padding: 20px;
+  text-align: justify;
+}
+.ht-btn.ht-btn-md-1 {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 54px;
+  height: 54px;
+}
+.section-space--mt_60-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.gradation-btn_1{
+font-weight: 500;
+margin-top: 20px;
+font-size: 14px;
+color: #086ad8;
