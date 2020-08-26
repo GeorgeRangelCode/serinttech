@@ -11807,6 +11807,9 @@ ol {
   .contact-info.sytle-one .contact-list-item .content .main-content .text,
   .contact-info.style-two .contact-list-item .content .main-content .text {
     font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 240px;
   }
 }
 
