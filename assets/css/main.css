@@ -32,10 +32,12 @@
 .company {
   text-align: center;
   margin-top: -60px;
+  margin-block-start: auto;
 }
 .soluciones {
   text-align: left;
   margin-left: 20px;
+  margin-inline-start: auto;
 }
 .header-bg {
   background: #f8f8f8 !important;
